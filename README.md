@@ -20,3 +20,19 @@ Usado para definir a navegação do usuário: faz o texto virar um link. Usa-se 
 - `<body>`- Corpo - O que ficará visível para o usuário
 
 - `<header>`- cabeçário
+
+
+
+# CSS
+
+É uma linguagem de estilo.  Responsabilidades:
+
+- Visual;
+
+`reset`serve para tirar os diferentes comportamentos de cada browser, para padronizar o modo de visualização em qualquer browser
+```
+<link rel="stylesheet" href="reset.css">
+```
+(código copiado de Erik Meyer e salvo como reset.css) - lembrar de colar o reset antes, para que ele não sobreponha qualquer alteração que seja feita depois
+
+
