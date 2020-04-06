@@ -1,27 +1,78 @@
+html, 
+ body {
+    height: 100%;
+}
+
+#container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 header {
     background-color: #e24647;
-    color: #FFF;
+    color: #fff;
     overflow: hidden;
-    margin: 0 115px;
+    margin: 5% 5% 0;
     padding: 55px 60px 95px;
+    
 }
 
 h1 {
+    
     font-size: 40px;
     font-family: Arial, "Roboto", sans-serif;
-    text-align: left;
     float: left;
+    /* padding: 40px; */
+    
 }
 
 nav {
     font-size: 21px;
     font-family: SegoeUI, "Roboto", sans-serif; 
     float: right;
+    
+
 }
 
 a {
     text-decoration: none;
     color: inherit;       
-    padding: 40px; 
+    margin-right: 80px; 
+    
 }
 
+.last{
+    margin-right: 0;
+}
+
+main{
+    background-color: #e24647;
+    color: #fff;
+    font-size: 21px;
+    margin: 0 5%;
+    padding: 55px 60px 95px;
+    
+    
+}
+
+
+footer{
+    background-color: #e24647;
+    color: #FFF;
+    margin: 0 5% 5%;
+    padding: 55px 60px;
+    overflow: hidden;
+    #e24647
+}
+
+button{
+    background-color: #252c41;
+    color: inherit;
+    padding: 10px 20px;
+    font-size: 21px;
+    font-family: Arial, "Roboto", sans-serif;
+    float: right;
+    cursor: pointer;
+}
